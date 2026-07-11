@@ -1,0 +1,171 @@
+/* navbar section start */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#ffffffFF;
+    align-items: center;
+    padding: 18px 100px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(65, 66, 66);
+}
+.common-btn{
+    text-decoration: none;
+    background-color:#1d4ed8FF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+/* navbar section end */
+/* hero section start*/
+.hero{
+    background-image: linear-gradient (rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./image/backgraound.webp');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+/* .hero button{
+    width: 8%;
+} */
+
+.text{
+    font-size: 50px;
+
+}
+.hero-content p{
+    font-size: large;
+    text-align: center;
+    margin: auto;
+}
+/* hero section end */
+
+/* speaker section start */
+
+.speakers-section{
+    width:90%;
+    max-width:1200px;
+    margin:80px auto;
+}
+
+.speaker h2{
+    text-align:center;
+    font-size: 50px;
+    margin-bottom:30px;
+}
+
+
+.speaker-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+.speaker-card{
+    background:#e7c7c7;
+    border-radius: 8px;
+    overflow:hidden;
+}
+
+.speaker-card img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+}
+
+
+.card-detail{
+    padding: 22px;
+}
+
+
+.category{
+    display:block;
+    color:#574feb;
+    font-size:12px;
+    font-weight:600;
+    text-transform:uppercase;
+    margin-bottom:20px;
+}
+
+
+.card-detail h3{
+    font-size:25px;
+    margin-bottom:10px;
+}
+
+
+.card-detail p{
+    color:#666;
+    font-size:15px;
+}
+
+/* speaker section end*/
+
+/* pricing section start */
+
+.secure-line h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.secure-line p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.pricing{
+    width:90%;
+    max-width:1200px;
+    margin:80px auto;
+}
+.pricing-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+.card{
+    width: 340px;
+    padding: 40px;
+}
+
+/* pricing section end */
